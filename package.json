@@ -1,0 +1,16 @@
+{
+  "name": "fastdate",
+  "version": "1.0.0",
+  "description": "日期控件",
+  "main": "fastdate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shipeifei",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-traceur": "^0.5.4",
+    "traceur": "0.0.92"
+  }
+}
