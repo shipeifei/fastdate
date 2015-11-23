@@ -2,12 +2,16 @@
 js开发的一个日期开源项目，文件短小、功能齐全、简便好用
     //实化对象，参数true表示输出日志
     var date = new FastDate(true);
+    
     //获取当前日期，可以指定日期格式
     document.write("自定义格式获取当前日期：" + date.formatCurrentDate('yyyy-MM-dd HH:mm:ss') + "</br>");
     document.write("=======================================================" + "</br>");
+    
+    
     //默认为yyyy-MM-dd HH:mm:ss格式
     document.write("无参数获取当前日期：" + date.formatCurrentDate() + "</br>");
     document.write("=======================================================" + "</br>");
+    
     //另外一种方式，CurentTime返回的是yyyy-MM-dd HH:mm:ss
     document.write("CurentTime方法获取当前日期：" + date.formatCurrentDate() + "</br>");
     document.write("=======================================================" + "</br>");
@@ -15,10 +19,13 @@ js开发的一个日期开源项目，文件短小、功能齐全、简便好用
     document.write("当前年份：" + date.getCurrentYear() + "</br>");
     document.write("当前年份指定格式：" + date.getCurrentYear('yy') + "</br>");
     document.write("=======================================================" + "</br>");
+    
     //获取当前月份，可以指定格式
     document.write("当前月份：" + date.getCurrentMonth() + "</br>");
     document.write("当前月份指定格式：" + date.getCurrentMonth('MM') + "</br>");
     document.write("=======================================================" + "</br>");
+    
+    
     //获取当前天，可以指定格式
     document.write("当前天：" + date.getCurrentDay() + "</br>");
     document.write("当前天指定格式：" + date.getCurrentDay('dd') + "</br>");
