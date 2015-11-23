@@ -1,1 +1,0 @@
-import isArray from './isArray';
