@@ -1,6 +1,8 @@
 # fastdate
 js开发的一个日期开源项目，文件短小、功能齐全、简便好用
+
     //实化对象，参数true表示输出日志
+    
     var date = new FastDate(true);
     
     //获取当前日期，可以指定日期格式
